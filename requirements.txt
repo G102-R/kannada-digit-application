@@ -1,0 +1,7 @@
+streamlit_drawable_canvas==0.5.1
+tensorflow-cpu
+streamlit
+numpy==1.19.5
+opencv-python
+Pillow==8.2.0
+pipenv
