@@ -71,23 +71,13 @@ Bibtex entry:
 
 """)
 
-st.write("""### Testing data """)
+st.write("""### Sample Data from the dataset  """)
 df = pd.read_csv("test.csv")
 df = pd.DataFrame(df)
 st.write(df.head())
 
-st.write("""
-### Training data
-""")
-df = pd.read_csv("Dig-MNIST.csv")
-st.write(df.head())
-#st.write("""
-### Train data
-#"")    
-#df = pd.read_csv("train.csv")
-#st.write(df.head(5))
 
-my_expander = st.beta_expander(label='Models used')
+my_expander = st.beta_expander(label='Neural Net. Models used')
 with my_expander:
     'Simple Convolutional Neural Network (CNN)'
     'VGG-16'
